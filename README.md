@@ -40,10 +40,10 @@ Default setting - `DESC`. Only two values allowed here, cowboy. `DESC` and `ASC`
 Default setting - `true`. Whether or not you would like to output the results, or simply return an array of the data.
 
 # Examples
-The most basic example would simply be `<?php echo get_attached_images(); ?>` somewhere within your page and post. This plug-in / script need not be within The Loop.
+The most basic example would simply be `<?php echo get_attached_images(); ?>` somewhere within your page or post. This plug-in / script need not be within The Loop.
 
 ## Adding Parameters
-Plug-in should work with either passing in array or a string - e.g. - `<?php echo get_attached_images( array( 'size' => 'large' ) ); ?>` || `<?php echo get_attached_images( 'size=large&pageID=1001' ); ?>`
+Plug-in should work with either passing in array or a string - e.g. - `<?php echo get_attached_images( array( 'size' => 'large' ) ); ?>` OR `<?php echo get_attached_images( 'size=large&pageID=1001' ); ?>`
 
 # Et Cetera
 I've mostly set this up for my own personal re-use, but should anyone find it interesting and/or it filled a need for you, let me know. As of right now, if there is a description for the image, it will insert a `figcaption` containing that info. I should probably make this optional, but silence means acceptance.
