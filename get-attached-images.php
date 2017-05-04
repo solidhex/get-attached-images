@@ -5,6 +5,7 @@
  * Plugin Name: Get Attached Images
  * Author: solidhex
  * Author URI: https://github.com/solidhex/
+ * Description: Pulls Attached Images From a Post or Page.
  * Version 2.0
  */
 
