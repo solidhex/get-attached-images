@@ -1,7 +1,7 @@
 # get-attached-images
 WordPress Images Plug-in to pull attached images from post or page.
 
-#Options
+# Options
 `$defaults = array(
 		'pageID' => false,
 		'size' => 'thumbnail',
