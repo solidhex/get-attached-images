@@ -1,5 +1,5 @@
 # get-attached-images
-WordPress Images Plug-in to pull attached images from post or page.
+WordPress Images Plug-in To Pull Attached Images from Post or Page.
 
 # Options
 `
