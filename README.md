@@ -16,7 +16,7 @@ $defaults = array(
 `
 
 ## pageID
-Default setting - `false`. This pulls attached images from current page or post. Alernatively, you can pass in a specific pageID to pull the attached images from that page anywhere you wish.
+Default setting - `false`. This pulls attached images from the current page or post. Alernatively, you can pass in a specific pageID to pull the attached images from that page anywhere you wish.
 
 ## size
 Default setting - `thumbnail`. You can either use the standard WP keyword image sizes, or ones you've created all by your onesie using `add_image_size`. You can read about that over here - [https://developer.wordpress.org/reference/functions/add_image_size/]
@@ -31,7 +31,7 @@ Default setting - `<figure>`. The opening tag for your precious image.
 Default setting - `</figure>`. The closing tag for your precious image.
 
 ## orderby
-Default setting - `date`. What you chose to have your images sorted by. This accepts the same `orderby` values as the native `get_children`.
+Default setting - `date`. What you chose to have your images sorted by. This accepts the same `orderby` values as the native `get_children` - take a gander at this for clarification [https://codex.wordpress.org/Function_Reference/get_children].
 
 ## order
 Default setting - `DESC`. Only two values allowed here, cowboy. `DESC` and `ASC` only, depending on whether you want reverse chronological or vice-versa.
